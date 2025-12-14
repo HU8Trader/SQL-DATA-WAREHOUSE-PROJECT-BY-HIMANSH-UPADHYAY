@@ -133,8 +133,6 @@ Develop SQL-based analytics to generate insights on:
 
 These insights empower stakeholders with **key business metrics** for **strategic decision-making**.
 
-📄 For detailed requirements, refer to:
-👉 [docs/requirements.md](docs/requirements.md)
 
 ---
 

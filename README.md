@@ -1,102 +1,195 @@
-HimanshUpadhyayDataWarehouseProject 
-Welcome to the "Himansh Upadhyay Data Warehouse and Analytics Project" repository!
-This project demonstrates a comprehensive data warehouseing and analytics solution, form building a data warehouse to generating actionable insights.
-Design as a portfolio project.
-highlights industry best practices in data engineering and analytics.
+Here is a **clean, professional, and GitHub-ready README.md**, corrected for **grammar, structure, formatting, and industry standards**, while keeping your original intent intact.
+You can **directly copy–paste** this into your GitHub repository.
 
 ---
-## Data Architecture
-The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
-![Data Architecture] (docs/data_architecture.png)
 
-1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV files into SQL server Database.
-2. **Silver Layer**: This layer includes data cleaning, standardization, and normalization processes to prepare data fro analysis.
-3. **Gold Layer**: Houses business-ready data medeled into a star schema required for reporting and analytics.
-----
-# Project OverView
-This project involves:
-1. **Data Architecture** : Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
-2.  **ETL Pipelines**: Extracting, transforming, and loding data from source system into the warehouse.
-3.  **Data Modeling**: Developing fact and dimension tables optimized fro analytical queries.
-4.  **Analytics & Reporting**: Creating SQL-based reports and dashboards fro actionable insights.
- In this repository I Demostrate
--SQL Development
--Data Architect
--ETL Pipeline Developer
-- Data Modeling
-- Data Analytics
+# Himansh Upadhyay – Data Warehouse & Analytics Project
+
+Welcome to the **Himansh Upadhyay Data Warehouse and Analytics Project** 🚀
+This repository demonstrates a **complete end-to-end data warehousing and analytics solution**, from raw data ingestion to business-ready analytics.
+
+This project is designed as a **portfolio project** and highlights **industry best practices** in:
+
+* Data Engineering
+* Data Warehousing
+* ETL Pipelines
+* Data Modeling
+* Analytics & Reporting
+
 ---
-## Important Linkes & Tools:
-Everything is for Free!
-- **[Datasets](datasets/):** Access to the project dataset (csv files).
-- **[SQL Server Express](https://
-- Lightweight server for hosting you SQL database.
-- **[SQL Server Management Studio (SSMS)] (https://.........):** GUI fro managing and interacting with databases.
------
-## Project Requirements
+
+## 📐 Data Architecture
+
+This project follows the **Medallion Architecture** with **Bronze**, **Silver**, and **Gold** layers.
+
+![Data Architecture](docs/data_architecture.png)
+
+### Architecture Layers
+
+1. **Bronze Layer**
+
+   * Stores raw data as-is from source systems
+   * Data is ingested from CSV files into **SQL Server**
+   * No transformations applied
+
+2. **Silver Layer**
+
+   * Data cleaning, validation, and standardization
+   * Removal of duplicates and data quality issues
+   * Prepared for analytical processing
+
+3. **Gold Layer**
+
+   * Business-ready data
+   * Modeled using **Star Schema**
+   * Optimized for reporting and analytics
+
+---
+
+## 📌 Project Overview
+
+This project covers the full lifecycle of a modern data warehouse:
+
+1. **Data Architecture**
+
+   * Designing a modern warehouse using the Medallion Architecture
+
+2. **ETL Pipelines**
+
+   * Extracting, transforming, and loading data from source systems
+
+3. **Data Modeling**
+
+   * Creating fact and dimension tables optimized for analytics
+
+4. **Analytics & Reporting**
+
+   * SQL-based insights for business decision-making
+
+### Skills Demonstrated
+
+* SQL Development
+* Data Architecture
+* ETL Pipeline Development
+* Data Modeling
+* Data Analytics
+
+---
+
+## 🔗 Important Links & Tools (Free)
+
+* **Datasets**
+  Access project datasets (CSV files):
+  👉 `datasets/`
+
+* **SQL Server Express**
+  Lightweight SQL Server for hosting the database
+  👉 [https://www.microsoft.com/sql-server/sql-server-downloads](https://www.microsoft.com/sql-server/sql-server-downloads)
+
+* **SQL Server Management Studio (SSMS)**
+  GUI for managing and querying SQL Server
+  👉 [https://learn.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms](https://learn.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)
+
+---
+
+## 🏗️ Project Requirements
+
 ### Building the Data Warehouse (Data Engineering)
-#### Objective 
-Develop a modern data warehouse using SQL Server to Consolidate sales data, enabling analytical reporting and infromed decision-making.
-#### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issus prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
-- **Scope**: Focus on the latest dataset only; historization of data is not required.
-- **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
-------
-### BI: Analytics & Reporting (Data Analysis)
-#### Objective 
-Develop SQL-based analytics to deliver detailed insights into:
--**Customer Behavior**
--**Product Performance**
--**Sales Trends**
-These insights empower stakeholders with key business metrics, enabling strategic decisio-making. 
-For more details, refer to [docs/requirements.md](docs/requirements.md).
-## Repository Structure
-````
+
+#### 🎯 Objective
+
+Develop a modern data warehouse using **SQL Server** to consolidate sales data and enable analytical reporting.
+
+#### 📋 Specifications
+
+* **Data Sources**
+
+  * Two source systems: **ERP** and **CRM**
+  * Data provided as CSV files
+
+* **Data Quality**
+
+  * Clean and resolve data quality issues before analysis
+
+* **Integration**
+
+  * Combine ERP and CRM data into a single analytical data model
+
+* **Scope**
+
+  * Focus on the latest available data
+  * No historical data versioning required
+
+* **Documentation**
+
+  * Clear documentation for business users and analytics teams
+
+---
+
+## 📊 BI: Analytics & Reporting (Data Analysis)
+
+#### 🎯 Objective
+
+Develop SQL-based analytics to generate insights on:
+
+* Customer Behavior
+* Product Performance
+* Sales Trends
+
+These insights empower stakeholders with **key business metrics** for **strategic decision-making**.
+
+📄 For detailed requirements, refer to:
+👉 [docs/requirements.md](docs/requirements.md)
+
+---
+
+## 🗂️ Repository Structure
+
+```
 data-warehouse-project/
 │
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+├── datasets/                           # Raw ERP & CRM CSV datasets
 │
-├── docs/                               # Project documentation and architecture details
-│   ├── etl.drawio                      # Draw.io file shows all different techniquies and methods of ETL
-│   ├── data_architecture.drawio        # Draw.io file shows the project's architecture
-│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
-│   ├── data_flow.drawio                # Draw.io file for the data flow diagram
-│   ├── data_models.drawio              # Draw.io file for data models (star schema)
-│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+├── docs/                               # Project documentation & diagrams
+│   ├── etl.drawio                      # ETL techniques and workflows
+│   ├── data_architecture.drawio        # Overall system architecture
+│   ├── data_catalog.md                 # Dataset fields & metadata
+│   ├── data_flow.drawio                # Data flow diagram
+│   ├── data_models.drawio              # Star schema data models
+│   ├── naming-conventions.md           # Naming standards
 │
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   ├── gold/                           # Scripts for creating analytical models
+├── scripts/                            # SQL scripts
+│   ├── bronze/                         # Raw data ingestion scripts
+│   ├── silver/                         # Cleaning & transformation scripts
+│   ├── gold/                           # Analytical models & views
 │
-├── tests/                              # Test scripts and quality files
+├── tests/                              # Data quality & validation tests
 │
-├── README.md                           # Project overview and instructions
-├── LICENSE                             # License information for the repository
-├── .gitignore                          # Files and directories to be ignored by Git
-└── requirements.txt                    # Dependencies and requirements for the project
+├── README.md                           # Project overview
+├── LICENSE                             # License information
+├── .gitignore                          # Git ignore rules
+└── requirements.txt                    # Project dependencies
 ```
+
 ---
- 
-## License
-This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
-## About Me
-Hi There! I'm **Himansh Upadhyay**, Founder of HiLyst.
-Let's stay in touch! Feel free to connect with me on the following platforms:
-[YouTube] (https:// ............)
-[!Linkedin](https://......)
-[!Website](https://......)
-[![Upwork](https://.....)
 
+## 📜 License
 
+This project is licensed under the **MIT License**.
+You are free to use, modify, and share this project with proper attribution.
 
+👉 See the [LICENSE](LICENSE) file for details.
 
+---
 
+## 👤 About Me
 
+Hi! I’m **Himansh Upadhyay**, Founder of **HiLyst**.
+I specialize in **Data Engineering, Analytics, and Business Intelligence**, and I build scalable data solutions for real-world business problems.
 
+### 🌐 Connect With Me
 
-
-
-
+* 📺 **YouTube**: www.youtube.com/@himansh.upadhyay
+* 💼 **LinkedIn**: www.linkedin.com/in/himansh-upadhyay-a1b117343
+* 🌍 **Website**: https://gamma.app/docs/Himansh-Upadhyay-r9pggzb5nty0hpm?mode=doc
+* 🧑‍💻 **Upwork**: https://freelancerprofilenuxt.mesh.prod.platform.usw2.upwork/freelancers/~01bbabfb1574a0756f?mp_source=share

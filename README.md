@@ -1,4 +1,4 @@
-##HimanshUpadhyayDataWarehouseProject 
+HimanshUpadhyayDataWarehouseProject 
 Welcome to the "Himansh Upadhyay Data Warehouse and Analytics Project" repository!
 This project demonstrates a comprehensive data warehouseing and analytics solution, form building a data warehouse to generating actionable insights.
 Design as a portfolio project.

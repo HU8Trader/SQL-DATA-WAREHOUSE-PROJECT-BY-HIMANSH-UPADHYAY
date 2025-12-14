@@ -1,8 +1,3 @@
-Here is a **clean, professional, and GitHub-ready README.md**, corrected for **grammar, structure, formatting, and industry standards**, while keeping your original intent intact.
-You can **directly copy–paste** this into your GitHub repository.
-
----
-
 # Himansh Upadhyay – Data Warehouse & Analytics Project
 
 Welcome to the **Himansh Upadhyay Data Warehouse and Analytics Project** 🚀

@@ -182,7 +182,7 @@ I specialize in **Data Engineering, Analytics, and Business Intelligence**, and 
 
 ### 🌐 Connect With Me
 
-* 📺 **YouTube**: www.youtube.com/@himansh.upadhyay
+* 📺 **YouTube**: https://youtu.be/_Y3U6hMkP0I?si=G_fRVlpIji-ptNoM
 * 💼 **LinkedIn**: www.linkedin.com/in/himansh-upadhyay-a1b117343
 * 🌍 **Website**: https://gamma.app/docs/Himansh-Upadhyay-r9pggzb5nty0hpm?mode=doc
 * 🧑‍💻 **Upwork**: https://freelancerprofilenuxt.mesh.prod.platform.usw2.upwork/freelancers/~01bbabfb1574a0756f?mp_source=share
